@@ -1,0 +1,79 @@
+.main-wrapper {
+  padding: 50px 0;
+  text-align: center;
+}
+
+h1.ui.header {
+  background-color: #333;
+  padding: 10px 0;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.ui.container.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ui.card.card-item {
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 15px 0;
+  text-align: center;
+  margin: 14px 0 !important;
+}
+
+.dark-mode__toggle {
+  background: #edeeff;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+  margin: 0 auto 50px;
+}
+
+.toggle {
+  background: dodgerblue;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.toggle-label {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.dark-mode {
+  background-color: #333;
+
+  h1.ui.header {
+    background-color: lightblue;
+    color: #333;
+  }
+
+  .ui.card.card-item {
+    background-color: #333;
+    border: 3px solid lightblue;
+    color: lightblue;
+
+    h3.ui.header {
+      color: lightyellow;
+    }
+  }
+
+  .toggle-label {
+    color: lightyellow;
+  }
+}
